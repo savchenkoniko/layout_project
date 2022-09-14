@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .intro{
     max-width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .intro_logo{
@@ -90,13 +90,13 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .intro_buttons_item{
     display: inline-block;
-    padding: 10px 15px;
+    padding: 30px 15px;
     color: white;
     border: 1px solid #0057FF;
     border-radius: 5px;
     user-select: none;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 25px;
     width: 90%
 }
 
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .picture img {
     height: 310px;
-    width: 708px;
+    width: 706px;
 }
 
 .picture_header{
@@ -248,4 +248,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .footer{
     max-width: 100%;
     margin: 0 auto;
+}
+
+.footer_text{
+    padding: 0 50px 0 50px;
 }
