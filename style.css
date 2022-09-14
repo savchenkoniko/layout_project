@@ -40,7 +40,7 @@ img{vertical-align: top;}
 h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .mobile_layout{
-    max-width: 440px;
+    max-width: 100%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -235,4 +235,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .msvetov_text{
    background: linear-gradient(0deg, #FFFFFF 21.87%, rgba(255, 255, 255, 0) 100%);
    mix-blend-mode: normal;
+}
+
+.footer{
+    margin: 0 auto;
 }
