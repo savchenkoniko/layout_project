@@ -149,3 +149,97 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 
 
+.messages_topic{
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 900;
+}
+
+.messages{
+  max-width: 100%;
+  margin: 40px 10px 40px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages_avatar img{
+  border-radius: 30px;
+}
+
+.messages_block{
+  max-width: 100%;
+  display: flex;
+}
+
+.messages_avatar{
+  margin-right: 20px;
+}
+
+.messages p{
+  margin-bottom: 20px;
+}
+
+.messages_time{
+  text-align: end;
+  color: #ABACB1;
+  flex-grow: 1;
+}
+
+.messages_info_nickname{
+  color: #ABACB1;
+}
+
+.messages_info{
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.messages_info_text{
+  font-size: 16px;
+}
+
+.messages_info_name_nickname{
+  margin-bottom: 20px;
+}
+
+.messages_info_name_nickname p{
+  margin: 0;
+}
+
+.messages_info_nickname{
+  color: #ABACB1;
+}
+
+.icon_item{
+  display: inline-block;
+  font-size: 14px;
+  color: #ABACB1;
+}
+
+.messages_icons{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.messages_info_img img{
+  margin: 0 0 20px 0;
+}
+
+.left_icon_block_num{
+  margin-left: 10px;
+}
+
+.msvetov_text{
+ background: linear-gradient(0deg, #FFFFFF 21.87%, rgba(255, 255, 255, 0) 100%);
+ mix-blend-mode: normal;
+}
+
+.footer{
+  max-width: 100%;
+}
+
+.footer_text{
+  padding: 0 50px 0 50px;
+}
