@@ -54,11 +54,12 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .intro_text{
   font-size: 32px;
   font-weight: 700;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 0px 0px 0px;
+  word-wrap: break-word;
 }
 
 .intro{
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .intro_logo{
@@ -83,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .intro_buttons_item{
@@ -95,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   user-select: none;
   line-height: 1.5;
   font-size: 25px;
-  width: 90%; 
+  width: 92%;
 }
 
 .button_reg{
@@ -105,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .button_enter{
   background: white;
   color: #0057FF;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .picture img {
@@ -131,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .statistics_block_item{
   text-align: center;
-  margin: 40px 0 40px 0;
+  margin: 36px 0 36px 0;
 }
 
 .statistics_num{
@@ -157,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .messages{
   max-width: 100%;
-  margin: 40px 10px 40px 10px;
+  margin: 42px 10px 42px 10px;
   display: flex;
   flex-direction: column;
 }
@@ -172,12 +173,9 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 
 .messages_avatar{
-  margin-right: 20px;
+  margin-right: 16px;
 }
 
-.messages p{
-  margin-bottom: 20px;
-}
 
 .messages_time{
   text-align: end;
@@ -195,13 +193,19 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   width: 380px;
 }
 
+.messages_p{
+  margin-bottom: 24px;
+}
+
+
 .messages_info_text{
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 5px;
 }
 
 .messages_info_name_nickname{
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .messages_info_name_nickname p{
@@ -222,6 +226,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   width: 250px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .messages_info_img img{
