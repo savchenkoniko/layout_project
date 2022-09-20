@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="header__content">
       <div class="logo"><img src="img/logo.png"></div>
       <div class="logo__text"><p>Оставайся на связи с друзьями, даже когда их нет рядом</p></div>
-      <button class="button__reg">Зарегистрироваться</button>
-      <button class="button__enter">Войти</button>
+      <button class="button__reg reg__top">Зарегистрироваться</button>
+      <button class="button__enter enter__top">Войти</button>
     </div>
-    <img src="img/header_picture.png" class="header__photo__img">  
+    <div class="header__photo__block__des"><img src="img/header_picture_des.png"></div>
   </header>
   <main>
     <div class="main__content__stat">
@@ -38,117 +38,220 @@
       </div>
     </div>
       <p class="main__content__messages__title">Последние сообщения</p>
-      <div class="main__content__messages__block">
-        <div class="main__content__messages__userLogo"><img src="img/roizman.png">
-        </div>
-        <div class="main__content__messages__userText">
-          <div class="messages__userText__name"><p>Евгений Ройзман</p>
-          </div>
-          <div class="messages__userText__nickName"><p>@roizman</p>
-          </div>
-          <div class="messages__userText__text"><p>Пробежал десятку по набережной. Снег идет, тихо, светло. Все будет хорошо.</p>
-          </div>
-          <div class="messages__userText__icons">
-            <div class="icon__right icon">
-              <img src="img/right.png">
-              <p>21</p>
+      <div class="main__content__messages__sideBar__flexBlock">
+        <div class="main__content__messages__flexBlock">
+          <div class="main__content__messages__block">
+            <div class="main__content__messages__userLogo"><img src="img/roizman.png">
             </div>
-            <div class="icon__heart icon">
-              <img src="img/heart.png">
-              <p>23</p>
+            <div class="main__content__messages__userText">
+              <div class="messages__userText__name"><p>Евгений Ройзман</p>
+              </div>
+              <div class="messages__userText__nickName"><p>@roizman</p>
+              </div>
+              <div class="messages__userText__text"><p>Пробежал десятку по набережной. Снег идет, тихо, светло. Все будет хорошо.</p>
+              </div>
+              <div class="messages__userText__icons">
+                <div class="icon__right icon">
+                  <img src="img/right.png">
+                  <p>21</p>
+                </div>
+                <div class="icon__heart icon">
+                  <img src="img/heart.png">
+                  <p>23</p>
+                </div>
+                <div class="icon__share icon">
+                  <img src="img/share.png">
+                  <p>9</p>
+                </div>
+              </div>
             </div>
-            <div class="icon__share icon">
-              <img src="img/share.png">
-              <p>9</p>
-            </div>
-          </div>
-        </div>
-        <div class="main__content__messages__userTime"><p>28 минут назад</p>
-        </div>
-      </div>
-      <div class="messages__line"></div>
-      <div class="main__content__messages__block">
-        <div class="main__content__messages__userLogo"><img src="img/ilon_mask.png">
-        </div>
-        <div class="main__content__messages__userText">
-          <div class="messages__userText__name"><p>Elon Musk</p>
-          </div>
-          <div class="messages__userText__nickName"><p>@elonmusk</p>
-          </div>
-          <div class="messages__userText__text"><p>Has anyone seen web3? I can't find it.</p>
-          </div>
-          <div class="messages__userText__icons">
-            <div class="icon__right icon">
-              <img src="img/right.png">
-              <p>21</p>
-            </div>
-            <div class="icon__heart icon">
-              <img src="img/heart.png">
-              <p>23</p>
-            </div>
-            <div class="icon__share icon">
-              <img src="img/share.png">
-              <p>9</p>
+            <div class="main__content__messages__userTime"><p>28 минут назад</p>
             </div>
           </div>
-        </div>
-        <div class="main__content__messages__userTime"><p>12 часов назад</p>
-        </div>
-      </div>
-      <div class="messages__line"></div>
-      <div class="main__content__messages__block">
-        <div class="main__content__messages__userLogo"><img src="img/sports_ru_logo.png">
-        </div>
-        <div class="main__content__messages__userText">
-          <div class="messages__userText__name"><p>Sports.ru</p>
-          </div>
-          <div class="messages__userText__nickName"><p>@sportsru</p>
-          </div>
-          <div class="messages__userText__text"><p>Кстати, год назад сборная была на 39-м месте. Прорыв! А лидер рейтинга вновь не поменялся.</p>
-          </div>
-          <div class="messages__userPicture">
-            <img src="img/karpin.png">
-          </div>
-          <div class="messages__userText__icons">
-            <div class="icon__right icon">
-              <img src="img/right.png">
-              <p>21</p>
+          <div class="messages__line"></div>
+          <div class="main__content__messages__block">
+            <div class="main__content__messages__userLogo"><img src="img/ilon_mask.png">
             </div>
-            <div class="icon__heart icon">
-              <img src="img/heart.png">
-              <p>23</p>
+            <div class="main__content__messages__userText">
+              <div class="messages__userText__name"><p>Elon Musk</p>
+              </div>
+              <div class="messages__userText__nickName"><p>@elonmusk</p>
+              </div>
+              <div class="messages__userText__text"><p>Has anyone seen web3? I can't find it.</p>
+              </div>
+              <div class="messages__userText__icons">
+                <div class="icon__right icon">
+                  <img src="img/right.png">
+                  <p>21</p>
+                </div>
+                <div class="icon__heart icon">
+                  <img src="img/heart.png">
+                  <p>23</p>
+                </div>
+                <div class="icon__share icon">
+                  <img src="img/share.png">
+                  <p>9</p>
+                </div>
+              </div>
             </div>
-            <div class="icon__share icon">
-              <img src="img/share.png">
-              <p>9</p>
+            <div class="main__content__messages__userTime"><p>12 часов назад</p>
             </div>
           </div>
-        </div>
-        <div class="main__content__messages__userTime"><p>12 часов назад</p>
-        </div>
-      </div>
-      <div class="messages__line"></div>
-      <div class="main__content__messages__block svetov">
-        <div class="main__content__messages__userLogo"><img src="img/svetov.png">
-        </div>
-        <div class="main__content__messages__userText">
-          <div class="messages__userText__name"><p>Михаил</p>
+          <div class="messages__line"></div>
+          <div class="main__content__messages__block">
+            <div class="main__content__messages__userLogo"><img src="img/sports_ru_logo.png">
+            </div>
+            <div class="main__content__messages__userText">
+              <div class="messages__userText__name"><p>Sports.ru</p>
+              </div>
+              <div class="messages__userText__nickName"><p>@sportsru</p>
+              </div>
+              <div class="messages__userText__text"><p>Кстати, год назад сборная была на 39-м месте. Прорыв! А лидер рейтинга вновь не поменялся.</p>
+              </div>
+              <div class="messages__userPicture">
+                <img src="img/karpin2.png">
+              </div>
+              <div class="messages__userText__icons">
+                <div class="icon__right icon">
+                  <img src="img/right.png">
+                  <p>21</p>
+                </div>
+                <div class="icon__heart icon">
+                  <img src="img/heart.png">
+                  <p>23</p>
+                </div>
+                <div class="icon__share icon">
+                  <img src="img/share.png">
+                  <p>9</p>
+                </div>
+              </div>
+            </div>
+            <div class="main__content__messages__userTime"><p>12 часов назад</p>
+            </div>
           </div>
-          <div class="messages__userText__nickName"><p>@msvetov</p>
-          </div>
-          <div class="messages__userText__text"><p>В столице Австрии уже который месяц продолжаются митинги против введения электронных паспортов. В современной истории еще не было таких массовых, продолжительных и глобальных протестов. Но журналистам не интересно рассказывать о том, что на самом деле волнует людей.</p>
+          <div class="messages__line"></div>
+          <div class="main__content__messages__block svetov">
+            <div class="main__content__messages__userLogo"><img src="img/svetov.png">
+            </div>
+            <div class="main__content__messages__userText">
+              <div class="messages__userText__name"><p>Михаил</p>
+              </div>
+              <div class="messages__userText__nickName"><p>@msvetov</p>
+              </div>
+              <div class="messages__userText__text"><p>В столице Австрии уже который месяц продолжаются митинги против введения электронных паспортов. В современной истории еще не было таких массовых, продолжительных и глобальных протестов. Но журналистам не интересно рассказывать о том, что на самом деле волнует людей.</p>
+              </div>
+            </div>
+            <div class="main__content__messages__userTime"><p>1 день назад</p>
+            </div>
           </div>
         </div>
-        <div class="main__content__messages__userTime"><p>1 день назад</p>
+        <div class="main__content__sidebar__block">
+          <div class="main__content__actualTopics">
+            <p class="actualTopics__title">Актуальные темы</p>
+            <div class="actualTopics__block">
+              <div class="actual__topics__block">
+                <p class="sidebar__topic__name">Новый Год 2022</p>
+                <div class="topic__info">
+                  <div class="topic__info__img"><img src="img/icon.png">
+                  </div>
+                  <div class="topic__info__country"><p>Россия</p>
+                  </div>
+                  <div class="topic__info__messages"><p>2 941 сообщение</p></div>
+                </div>
+              </div>
+              <div class="actual__topics__block">
+                <p class="sidebar__topic__name">BTS</p>
+                <div class="topic__info">
+                  <div class="topic__info__img"><img src="img/icon.png">
+                  </div>
+                  <div class="topic__info__country"><p>Мир</p>
+                  </div>
+                  <div class="topic__info__messages"><p>29 718 сообщение</p>
+                  </div>
+                </div>
+              </div>
+              <div class="actual__topics__block">
+                <p class="sidebar__topic__name">Украина</p>
+                <div class="topic__info">
+                  <div class="topic__info__img"><img src="img/icon.png">
+                  </div>
+                  <div class="topic__info__country"><p>Россия</p>
+                  </div>
+                  <div class="topic__info__messages"><p>958 186 сообщение</p>
+                  </div>
+                </div>
+              </div>
+              <div class="actual__topics__block">
+                <p class="sidebar__topic__name">Дудь</p>
+                <div class="topic__info">
+                  <div class="topic__info__img"><img src="img/icon.png">
+                  </div>
+                  <div class="topic__info__country"><p>Россия</p>
+                  </div>
+                  <div class="topic__info__messages"><p>4 185 сообщение</p>
+                  </div>
+                </div>
+              </div>
+              <div class="actual__topics__block">
+                <p class="sidebar__topic__name">ЛГБТ</p>
+                <div class="topic__info">
+                  <div class="topic__info__img"><img src="img/icon.png">
+                  </div>
+                  <div class="topic__info__country"><p>Москва</p>
+                  </div>
+                  <div class="topic__info__messages"><p>482 сообщени</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__content__interestingBloggers">
+            <p class="sidebar__inerestingBloggers__title">Интересные блогеры</p>
+            <div class="sidebar__bloggers__block">
+              <div class="intBloggers__block">
+                <div class="intBloggers__logo">
+                  <img src="img/habr.png">
+                </div>
+                <div class="intBloggers__text">
+                  <p class="intBloggers__name">Хабр Научпоп</p>
+                  <p class="intBloggers__nickName">@habr_popsci</p>
+                </div>
+                <button class="intBloggers__button">Читать</button>
+              </div>
+              <div class="intBloggers__block">
+                <div class="intBloggers__logo">
+                  <img src="img/matchtv.png">
+                </div>
+                <div class="intBloggers__text">
+                  <p class="intBloggers__name">Матв ТВ</p>
+                  <p class="intBloggers__nickName">@MatchTV</p>
+                </div>
+                <button class="intBloggers__button">Читать</button>
+              </div>
+              <div class="intBloggers__block">
+                <div class="intBloggers__logo">
+                  <img src="img/pm.png">
+                </div>
+                <div class="intBloggers__text">
+                  <p class="intBloggers__name">Популярная меха...</p>
+                  <p class="intBloggers__nickName">@PopMechanica</p>
+                </div>
+                <button class="intBloggers__button">Читать</button>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </main>
   <footer>
     <div class="footer__content">
-      <div class="logo__text"><p>Зарегистрируйтесь и узнайте обо всем первым</p></div>
-      <button class="button__reg">Зарегистрироваться</button>
-      <button class="button__enter">Войти</button>
+      <div class="logo__text"><p>Зарегистрируйтесь и узнайте обо всем первым</p>
+      </div>
+      <div class="footer__buttons">
+        <button class="button__reg reg__footer">Зарегистрироваться</button>
+        <button class="button__enter enter__footer">Войти</button>
+      </div>
     </div>
   </footer>
 </body>
