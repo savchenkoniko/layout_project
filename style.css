@@ -247,11 +247,18 @@ header{
   display: none;
 }
 
+.header__photo__block__mobile img{
+  width: 100%;
+}
+
 
 @media screen and (min-width:1200px) {
   header{
     display: flex;
     flex-direction: row;
+  }
+  .header__photo__block__mobile{
+    display: none;
   }
   .header__content{
     flex-basis: 50%;
