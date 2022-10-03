@@ -126,9 +126,9 @@ header{
 }
 
 .main__content__messages__userTime{
-  flex-grow: 1;
   text-align: end;
   color: #ABACB1;
+  width: 50px;
 }
 
 .messages__userText__nickName{
@@ -251,6 +251,14 @@ header{
   width: 100%;
 }
 
+.messages__block__name__time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__content__messages__userText{
+  width: 100%;
+}
 
 @media screen and (min-width:1200px) {
   header{
@@ -405,6 +413,7 @@ header{
 
   .main__content__messages__userTime{
     font-size: 16px;
+    flex-grow: 1;
   }
 
   .messages__userText__name{
