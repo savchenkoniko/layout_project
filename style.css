@@ -43,8 +43,8 @@ img{vertical-align: top;}
 h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 header{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__content{
@@ -264,6 +264,7 @@ header{
   header{
     display: flex;
     flex-direction: row;
+    width: 1400px;
   }
   .header__photo__block__mobile{
     display: none;
@@ -276,9 +277,11 @@ header{
   }
   main{
     background: #E5E5E5;
+    width: 1400px;
   }
   footer{
     background: #E5E5E5;
+    width: 1400px;
   }
   .main__content__messages__title{
     margin-left: 180px;
