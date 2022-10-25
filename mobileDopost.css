@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    max-width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px; 
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit}
+
+input::-ms-clear{display: none}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0; border:0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
+
+.mobile__fixed__buttom{
+    position: fixed;
+    top: 400px;
+    left: calc(80vw)
+}
+.header__block__mobile{
+    display: flex;
+    flex-direction: row;
+    background:#0057FF;
+    height: 46px;
+}
+
+.header__desk__block{
+    display: none;
+}
+
+.main__right__content{
+    display: none;
+}
+
+.main__doPost{
+    display: none;
+}
+
+.header__mobile__block{
+    background: #0057FF;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.footer__mobile__block{
+    display: flex;
+    margin-top: 16px;
+    height: 47px;
+    box-shadow:  0 -5px 5px -5px rgba(0, 0, 0, .5);
+}
+
+.fotter__mobile_button_1{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #0057FF; 
+}
+
+.fotter__mobile_button_1 img{
+    width: 20px;
+    height: 20px;
+}
+
+.fotter__mobile_button_2{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fotter__mobile_button_3{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fotter__mobile_button_4{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fotter__mobile_button_4 img{
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+}
+
+.header__block__desk{
+    display: none;
+}
+
+.header__block__mobile{
+    display: flex;
+}
+
+.logo_block_2{
+    display: none;
+}
+
+.logo_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.logo__text{
+    text-align: center;
+}
+
+.logo__text p{
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+
+
+
+.main__content__stat{
+  background: #0057FF;
+  color: white;
+  text-align: center;
+}
+
+
+
+.main__content__messages__block{
+  margin: 42px 16px 0px 16px; 
+}
+
+.main__content__messages__block{
+  display: flex;
+  margin-top: 24px;
+}
+
+.main__content__messages__userTime{
+  text-align: end;
+  color: #ABACB1;
+  width: 50px;
+}
+
+.messages__userText__nickName{
+  color: #ABACB1;
+  font-size: 14px;
+  float: left;
+}
+
+.messages__userText__name{
+  font-size: 14px;
+  font-weight: 900;
+  
+}
+
+.messages__userText__text{
+  font-size: 16px;
+}
+.messages__userText__text{
+  margin-top: 4px;
+}
+.messages__userText__text{
+  line-height: 19px;
+}
+
+.main__content__messages__title{
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 19px;
+  margin-top: 42px;
+  margin-left: 16px;
+}
+
+.main__content__messages__userLogo img{
+  border-radius: 30px;
+}
+
+.main__content__messages__userLogo{
+  margin-right: 16px;
+}
+
+.messages__userText__text{
+  margin-top: 10px;
+}
+
+.messages__userText__icons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  max-width: 250px;
+}
+
+.icon{
+  display: flex;
+}
+
+.icon p{
+  margin-left: 12px;
+  color: #B1B1B1;
+  size: 14px;
+}
+
+.messages__line{
+  height: 1px;
+  width: 100%;
+  background: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  margin: 16px 0;
+}
+
+.main__content__messages__userTime{
+  font-size: 10px;
+}
+
+.messages__userPicture img{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.svetov{
+  background: linear-gradient(0deg, #FFFFFF 21.87%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.5;
+}
+
+.messages__userPicture img{
+  width: 100%;
+}
+
+.main__stat__wrapper{
+  padding: 36px 0;
+}
+
+.main__content__stat__block{
+  margin-bottom: 32px;
+}
+
+.main__content__stat__block:last-child{
+  margin-bottom: 0;
+}
+
+.main__content__stat__block__num{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.main__content__stat__block__text{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.messages__userText__text{
+  line-height: 19px;
+}
+
+
+.main__content__sidebar__block{
+  display: none;
+}
+
+
+.messages__block__name__time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__content__messages__userText{
+  width: 100%;
+}
+
+.footer_buttoms{
+    margin-top: 16px;
+    display: flex;
+    height: 47px;
+    border-top: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, .5);
+}
+
+.footer_button{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom_logo_border img{
+    border-radius: 10px;
+}
+
+.button_home{
+    border-bottom: 3px solid #0057FF;
+}
+
+.messages_button{
+    display: none;
+}
+
+.notification_button{
+    display: none;
+}
+
+.main_button{
+    display: none;
+}
+
+.avatar_button{
+    display: none;
+}
+
+.doPost__mobile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 456px;
+    background: #ffff;
+    border-top: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 550px;
+}
+
+.doPost__mobile__img{
+    display: flex;
+    align-self: center;
+    margin-top: 16px;
+}
+
+.doPost__sendPost{
+    background: #0057FF;
+    color: white;
+    height: 100%;
+    border: 1px solid #0057FF;
+    border-radius: 20px;
+}
+
+.doPost__buttons__flex{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 5px;
+    align-self: center;
+}
+
+.doPost__thirdButton{
+}
+
+.doPost__thirdButton p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post__button{
+    margin-left: 16px;
+}
+
+.doPost__mobile__text{
+    margin-left: 16px;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 500;
+}
