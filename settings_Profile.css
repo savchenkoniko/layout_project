@@ -1290,45 +1290,188 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   .right__content__setting__button{
     height: 48px;
     border-left: 3px solid #0057FF;
+    color: #0057FF;
+
   }
 
   .right__content__setting__button p{
     margin-left: 16px;
+    font-weight: 700;
   }
 
   .right__content__setting__password{
+    display: flex;
     height: 48px;
   }
 
   .right__content__setting__password p{
     margin-left: 16px;
+    font-weight: 500;
   }
 
   .right__content__setting__email{
+    display: flex;
     height: 48px;
   }
 
   .right__content__setting__email p{
     margin-left: 16px;
+    font-weight: 500;
   }
 
   .right__content__setting__conf{
+    display: flex;
     height: 48px;
   }
 
   .right__content__setting__conf p{
     margin-left: 16px;
+    font-weight: 500;
   }
 
 
   .right__content__setting__delete__profile{
+    display: flex;
     height: 48px;
-  }
-
-  .right__content__setting__delete__profile{
     margin-left: 16px;
   }
 
+  .right__content__setting__delete__profile{
+    font-weight: 500;
+  }
+
+  .right__button__item{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .right__content__setting__button{
+    margin-top: 16px;
+  }
+
+  .main__right__title__text{
+    margin-top: 8px;
+  }
+
+  .item__button{
+    margin-top: 15px;
+  }
+
+
+  .main__left__content__block__personal__info__1{
+    display: flex;
+  }
+
+  .main__left__content__block__personal__info_1_nameAnd__nicknme{
+    display: flex;
+    flex-direction: column;
+    margin-right: 36px;
+    margin-left: 16px;
+    margin-top: 24px;
+  }
+
+  .main__left__your__nickname{
+    margin-top: 24px;
+  }
+
+  .nickname__button{
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    width: 400px;
+  }
+
+  .main__left__content__block__personal__info_1__user__Photo{
+    margin-top: 15px;
+    margin-right: 52px;
+  }
+
+  .main__left__personal__info__2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+
+  .main__left__personal__info__birthDay__settings{
+    display: flex;
+  }
+
+  .personal__info__button{
+    width: 600px;
+    padding-left: 16px;
+    padding-top: 8px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    margin-bottom: 24px;
+  }
+
+  .personal__info__button:last-child{
+    margin-bottom: 0px;
+  }
+
+  .birthDay__settings__button{
+    width: 288px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    margin-right: 24px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+  }
+
+  .birthDay__settings__button:last-child{
+    margin-right: 0px;
+  }
+
+  .main__left__save__button{
+    color: white;
+    width: 180px;
+    background: #0057FF;
+    margin-top: 32px;
+    margin-left: 16px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 32px;
+    padding-bottom: 15px;
+    border: 1px solid #0057FF;
+    border-radius: 10px;
+  }
+
+
+  .main__left__save__button p{
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .small__title{
+    color: #B1B1B1;
+    font-size: 9px;
+    margin-bottom: 4px;
+  }
+
+  .personal__2__info__button{
+    padding-bottom: 7px;
+  }
+ 
+  .main__left__about__self{
+    height: 80px;
+  }
+
+  .main__left__your__nickname__busy{
+    color: #E40060;
+    font-size: 9px;
+    font-weight: 400;
+    margin-left: 32px;
+    margin-top: 4px;
+  }
+
+  .big__title{
+    font-size: 18px;
+    font-weight: 400;
+    color:#555555;
+  }
 
   
 }
