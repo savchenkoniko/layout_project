@@ -515,6 +515,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
   
   .main__right__userPhoto img{
+    height: 100%;
+    width: 100%;
     border-radius: 100px;
   }
 
@@ -796,6 +798,142 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   .main__content__messages__userTime p{
     white-space: nowrap;
     font-size: 14px; 
+  }
+
+
+  .main__right__userHat img{
+    width: 100%;
+  }
+
+  .main__left__content__userInfo__row{
+    display: flex;
+    margin-left: 12px;
+    position: relative;
+    top: -75px;
+  }
+
+  .main__left__content__userInfo__row{
+    display: flex;
+  }
+
+  .main__left__userInfo__statistics{
+    display: flex;
+    margin-top: auto;
+  }
+
+  .main__left__userInfo__row__button{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+
+  .main__left__userInfo__row__button p{
+    color:#0057FF;
+    border: 1px solid #0057FF;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .main__left__userInfo__userLogo img{
+    border: 5px solid white;
+    border-radius: 100px;
+  }
+
+  .main__left__userInfo__names{
+    display: flex;
+    margin-left: 16px;
+    margin-top: -40px;
+    margin-right: 16px;
+  }
+
+  .main__left__user__items{
+    display: flex;
+    margin-left: 19px;
+  }
+
+  .small__text{
+    font-size: 16px;
+    color: #ABACB1;
+  }
+
+  .main__left__userInfo__name{
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .main__left__who__you__are{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+  }
+
+  .main__left__who__you__are p{
+    font-size: 16px;
+  }
+
+  .main__left__userInfo__names{
+  }
+
+  .main__left__content__userInfo{
+    background: white;
+    margin-bottom: 16px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .main__left__content__userHat__and__userInfo{
+  }
+
+  .main__left__content__userHat img{
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .statistics__big__numbers{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .statistics__small__numbers{
+    font-size: 12px;
+    color:#ABACB1;
+  }
+
+  .main__statistics__messages{
+    margin-right: 20px;
+  }
+
+  .main__statistics__reading{
+    margin-right: 20px;
+  }
+
+  .userId{
+    margin-left: 16px;
+  }
+
+  .userId p{
+    line-height: 20px;
+  }
+
+  .main__left__userInfo__item{
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .user__items__item{
+    display: flex;
+  }
+
+  .main__left__user__items__adress{
+    margin-right: 32px;
+  }
+
+  .user__items__icon{
+    margin-right: 5px;
   }
   
 }
