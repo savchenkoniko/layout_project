@@ -1,0 +1,1124 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    max-width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px; 
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit}
+
+input::-ms-clear{display: none}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0; border:0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
+
+.mobile__fixed__buttom{
+    position: fixed;
+    top: 400px;
+    left: calc(80vw)
+}
+.header__block__mobile{
+    display: flex;
+    flex-direction: row;
+    background:#0057FF;
+    height: 46px;
+}
+
+.header__desk__block{
+    display: none;
+}
+
+.main__right__content{
+    display: none;
+}
+
+.main__doPost{
+    display: none;
+}
+
+.header__mobile__block{
+    background: #0057FF;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.footer__mobile__block{
+    display: flex;
+    margin-top: 16px;
+    height: 47px;
+    box-shadow:  0 -5px 5px -5px rgba(0, 0, 0, .5);
+}
+
+.fotter__mobile_button_1{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #0057FF; 
+}
+
+.fotter__mobile_button_1 img{
+    width: 20px;
+    height: 20px;
+}
+
+.fotter__mobile_button_2{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fotter__mobile_button_3{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fotter__mobile_button_4{
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.fotter__mobile_button_4 img{
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+}
+
+.header__block__desk{
+    display: none;
+}
+
+.header__block__mobile{
+    display: flex;
+}
+
+.logo_block_2{
+    display: none;
+}
+
+.logo_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.logo__text{
+    text-align: center;
+}
+
+.logo__text p{
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+
+
+
+
+.main__content__stat{
+  background: #0057FF;
+  color: white;
+  text-align: center;
+}
+
+
+
+.main__content__messages__block{
+  margin: 42px 16px 0px 16px; 
+}
+
+.main__content__messages__block{
+  display: flex;
+  margin-top: 24px;
+}
+
+.main__content__messages__userTime{
+  text-align: end;
+  color: #ABACB1;
+  width: 50px;
+}
+
+.messages__userText__nickName{
+  color: #ABACB1;
+  font-size: 14px;
+  float: left;
+}
+
+.messages__userText__name{
+  font-size: 14px;
+  font-weight: 900;
+  
+}
+
+.messages__userText__text{
+  font-size: 16px;
+}
+.messages__userText__text{
+  margin-top: 4px;
+}
+.messages__userText__text{
+  line-height: 19px;
+}
+
+.main__content__messages__title{
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 19px;
+  margin-top: 42px;
+  margin-left: 16px;
+}
+
+.main__content__messages__userLogo img{
+  border-radius: 30px;
+}
+
+.main__content__messages__userLogo{
+  margin-right: 16px;
+}
+
+.messages__userText__text{
+  margin-top: 10px;
+}
+
+.messages__userText__icons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  max-width: 250px;
+}
+
+.icon{
+  display: flex;
+}
+
+.icon p{
+  margin-left: 12px;
+  color: #B1B1B1;
+  size: 14px;
+}
+
+.messages__line{
+  height: 1px;
+  width: 100%;
+  background: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  margin: 16px 0;
+}
+
+.main__content__messages__userTime{
+  width: 69px;
+  font-size: 10px;
+}
+
+.messages__userPicture img{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.messages__userPicture img{
+  width: 100%;
+}
+
+.main__stat__wrapper{
+  padding: 36px 0;
+}
+
+.main__content__stat__block{
+  margin-bottom: 32px;
+}
+
+.main__content__stat__block:last-child{
+  margin-bottom: 0;
+}
+
+.main__content__stat__block__num{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.main__content__stat__block__text{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.messages__userText__text{
+  line-height: 19px;
+}
+
+
+.main__content__sidebar__block{
+  display: none;
+}
+
+
+.messages__block__name__time{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__content__messages__userText{
+  width: 100%;
+}
+
+.footer_buttoms{
+    margin-top: 16px;
+    display: flex;
+    height: 47px;
+    border-top: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, .5);
+}
+
+.footer_button{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom_logo_border img{
+    border-radius: 10px;
+}
+
+.button_home{
+    border-bottom: 3px solid #0057FF;
+}
+
+.messages_button{
+    display: none;
+}
+
+.notification_button{
+    display: none;
+}
+
+.main_button{
+    display: none;
+}
+
+.avatar_button{
+    display: none;
+}
+
+.main__left__userInfo__userLogo img{
+    border: 5px solid white;
+    border-radius: 100px;
+}
+
+.main__left__userInfo__userLogo{
+    position: relative;
+    top: -70px;
+}
+
+.main__left__content__userInfo{
+}
+
+.main__left__userInfo__statistics{
+    display: none;
+}
+
+.main__left__userInfo__statistics__mobile{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.user__items__item{
+    display: flex;
+}
+
+.main__left__userInfo__row__button{
+    display: none;
+}
+
+.main__left__userInfo__names{
+    margin-top: -50px;
+}
+
+.main__left__userInfo__statistics__mobile{
+    margin-bottom: 16px;
+    margin-top: 30px;
+
+}
+
+.main__left__userInfo__row__button__mobile{
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    border: 1px solid #0057FF;
+    border-radius: 5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.main__left__user__items{
+    margin-top: 15px;
+}
+.main__left__userInfo__names{
+    margin-bottom: 15px;
+}
+
+.main__left__userInfo__item{
+    margin-top: 5px;
+}
+
+.main__left__user__items__adress{
+    margin-top: 10px;
+}
+
+.user__items__icon{
+    margin-right: 9px;
+}
+
+.small__text{
+    color: #ABACB1;
+    font-size: 16px;
+}
+
+.main__left__userInfo__name{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.main__left__who__you__are{
+    font-size: 16px;
+}
+
+.statistics__big__numbers{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.statistics__small__numbers{
+    color: #ABACB1;
+    font-size: 12px;
+}
+
+.meduza{
+    margin-bottom: 24px;
+}
+
+.main__content__messages__userTime p{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #0057FF;
+    border-radius: 5px;
+    color: #0057FF; 
+}
+
+.main__left__userInfo__names{
+    margin-left: 16px;
+}
+
+.main__left__who__you__are{
+    margin-left: 16px;
+}
+
+.main__left__user__items__adress{
+}
+
+.main__left__userInfo__statistics__mobile{
+    margin-left: 16px;
+}
+
+.title__followers{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 16px;
+    margin-top: 7px;
+}
+
+.main__left__userInfo__row__button__mobile{
+    color: #0057FF;
+}
+
+.blue__right__button{
+    background: #0057FF;
+    border-radius: 5px;
+}
+
+.blue__right__button p{
+    color: white;
+}
+
+
+@media screen and (min-width:1200px) {
+
+  .main__left__userInfo__statistics__mobile{
+    display: none;
+  }
+
+  .main__left__userInfo__row__button__mobile{
+    display: none;
+  }
+
+  .mobile__fixed__buttom{
+    display: none;
+  }
+
+  body{
+    background: #E5E5E5;;
+  }
+  main{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 140px;
+    margin-top: 32px;
+    margin-bottom: 41px;
+  }
+
+  .header__mobile__block{
+    display: none;
+  }
+
+  .footer__mobile__block{
+    display: none;
+  }
+
+  .header__desk__block{
+    background: #ffff;
+    display: flex;
+    height: 64px;
+  }
+
+  .header__desk__right__block{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+  }
+
+  .header__desk__logo__button{
+    align-self: center;
+  }
+
+  .header__desk__avatar__button{
+    align-self: center;
+    margin-right: 16px;
+  }
+
+  .header__desk__avatar__button img{
+    align-self: center;
+    border-radius: 100px;
+  }
+
+  .header__desk__left__block{
+    display: flex;
+    flex-basis: 50%;
+  }
+
+  .header__desk__left__block__items{
+    display: flex;
+    flex-basis: 60%;
+    align-items: center;
+  }
+
+  .header__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B1B1B1;
+    width: 150px;
+  }
+
+  .header__button p{
+    margin-left: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .header__desk__main__button{
+    height: 100%;
+    align-items: center;
+  }
+
+  .header__desk__main__button img{
+    width: 16px;
+    height: 16px;
+  }
+
+  .main__button{
+    color: #0057FF;
+    border-bottom: 3px solid #0057FF;   
+  }
+
+  .main__doPost{
+    background: #ffff;
+    display: flex;
+    width: 100%;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+
+  .main__right__userName{
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  .main__right__userNickname{
+    color: #ABACB1;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .main__right__userStat__messages__num{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .main__right__userStat__messages__text{
+    color: #ABACB1;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .main__right__userStat__reading__num{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .main__right__userStat__reading__text{
+    color: #ABACB1;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .main__right__userStat__readers__num{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .main__right__userStat__messages__text{
+    color: #ABACB1;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .whats__new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    color: #ABACB1;
+  }
+
+  .main__right__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+
+  .main__right__userInfo{
+    flex-direction: column;
+    background: #ffff;
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+
+  
+  .main__right__userPhoto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+  }
+
+  .main__right__userPhoto__userNames{
+    display: flex;
+    margin-left: 16px;
+    position: relative;
+    top: -15px;
+  }
+
+  .main__right__userStat{
+    display: flex;
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .main__right__userNames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+  }
+
+  .main__right__userName p{
+    margin-top: 20px;
+  }
+
+  .main__right__userStat__messages{
+    margin-right: 24px;
+  }
+
+  .main__right__userStat__reading{
+    margin-right: 24px;
+  }
+
+  .avatar_button{
+    display: flex;
+  }
+  .messages_button{
+    display: flex;
+  }
+
+  .notification_button{
+    display: flex;
+  }
+
+  .main__right__userInfo__block1{
+    display: flex;
+  }
+
+
+  .main_button{
+    display: flex;
+  }
+  
+  .main__content__messages__title{
+    margin-left: 180px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    margin-top: 34px;
+  }
+  .main__content__messages__flexBlock{
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .main__content__actualTopics{
+    background: white;
+  }
+  .main__content__interestingBloggers{
+    background: white;
+  }
+  .main__content__messages__sideBar__flexBlock{
+    display: flex;
+  }
+  .messages__line{
+    display: none;
+  }
+ 
+  
+  .main__stat__wrapper{
+    display: flex;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .main__content__stat__block{
+    flex: 33%;
+  }
+  .main__content__stat__block__num{
+    font-size: 72px;
+    font-weight: 300;
+  }
+  .main__content__stat__block__text{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .main__content__sidebar__block{
+    display: block;
+    margin-left: 16px;
+    margin-right: 140px;
+    height: 100%;
+  }
+
+  .topic__info{
+    display: flex;
+  }
+  .logo__text p{
+    font-size: 48px;
+  }
+
+  .footer__content{
+    margin-left: 330px;
+    margin-right: 309px;
+  }
+
+  .footer__buttons{
+    display: flex;
+    margin-top: 32px;
+  }
+
+  .enter__footer{
+    margin-left: 16px;
+    margin-right: 70px;
+    height: 100%;
+  }
+
+  .reg__footer{
+    margin-left: 70px;
+  }
+
+  .main__content__messages__userLogo img{
+    width: 64px;
+    height: 64px;
+  }
+
+  .main__content__messages__userTime{
+    height: 24px;
+    font-size: 10px;
+    width: 140px;
+    margin-left: auto;
+  }
+
+  .title__followers{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 16px;
+    margin-top: 7px;
+  }
+
+  .main__content__messages__flexBlock{
+    width: 100%;
+  }
+
+  .flex__column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .messages__userText__name{
+    font-size: 16px;
+  }
+  .messages__userText__nickName{
+    font-size: 16px;
+  }
+
+  .actualTopics__title{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+
+  .actualTopics__block{
+    margin-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 13px;
+  }
+
+  .topic__info{
+    margin-bottom: 10px;
+  }
+
+  .actual__topics__block:last-child{
+    margin-bottom: 0px;
+  }
+
+  .topic__info__country{
+    margin-right: 8px;
+    margin-left: 4px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #0057FF;
+  }
+
+  .topic__info__messages{
+    font-size: 10px;
+    font-weight: 400;
+    color: #ABACB1;
+  }
+
+  .sidebar__topic__name{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .actual__topics__block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar__inerestingBloggers__title{
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 16px;
+    margin-top: 7px;
+  }
+  .main__content__actualTopics{
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .intBloggers__block{
+    display: flex;
+  }
+  .sidebar__bloggers__block{
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background: white;
+  }
+  .intBloggers__text{
+    flex-grow: 1;
+    flex-basis: content;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .intBloggers__text p{
+    white-space: nowrap; 
+  }
+  .intBloggers__block{
+    margin-bottom: 16px;
+  }
+
+  .intBloggers__button{
+    background: white;
+    border: 1px solid #0057FF;
+    border-radius: 5px;
+    color: #0057FF;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    margin-left: 5px;
+  }
+
+  .intBloggers__block:last-child{
+    margin-bottom: 0;
+  }
+  .main__content__interestingBloggers{
+    height: 100%;
+    padding-bottom: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .intBloggers__name{
+    font-size: 16px;
+  }
+  .intBloggers__nickName{
+    font-size: 12px;
+    color: #ABACB1;
+  }
+  .messages__userText__name{
+    float: left;
+    margin-right: 16px;
+  }
+  .main__content__messages__block{
+    margin-top: 40px;
+  }
+  .main__content__messages__block:first-child{
+    margin-top: 16px;
+  }
+  .messages__userText__icons{
+    margin-top: 16px;
+    max-width: 260px;
+  }
+  .main__content__messages__userTime p{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #0057FF;
+    border-radius: 5px;
+    color: #0057FF; 
+  }
+
+
+  .main__right__userHat img{
+    width: 100%;
+  }
+
+  .main__left__content__userInfo__row{
+    display: flex;
+    margin-left: 12px;
+    position: relative;
+    top: -75px;
+  }
+
+  .main__left__content__userInfo__row{
+    display: flex;
+  }
+
+  .main__left__userInfo__statistics{
+    display: flex;
+    margin-top: auto;
+  }
+
+  .main__left__userInfo__row__button{
+    display: block;
+    height: 42px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+
+  .main__left__userInfo__row__button p{
+    color:#0057FF;
+    border: 1px solid #0057FF;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .main__left__userInfo__userLogo img{
+    border: 5px solid white;
+    border-radius: 100px;
+  }
+
+  .main__left__userInfo__names{
+    display: flex;
+    margin-left: 16px;
+    margin-top: -40px;
+    margin-right: 16px;
+  }
+
+  .main__left__user__items{
+    display: flex;
+    margin-left: 16px;
+  }
+
+  .small__text{
+    font-size: 16px;
+    color: #ABACB1;
+  }
+
+  .main__left__userInfo__name{
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .main__left__who__you__are{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+  }
+
+  .main__left__who__you__are p{
+    font-size: 16px;
+  }
+
+  .main__left__userInfo__names{
+  }
+
+  .main__left__content__userInfo{
+    background: white;
+    margin-bottom: 16px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .main__left__content__userHat__and__userInfo{
+  }
+
+  .main__left__content__userHat img{
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .statistics__big__numbers{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  .statistics__small__numbers{
+    font-size: 12px;
+    color:#ABACB1;
+  }
+
+  .main__statistics__messages{
+    margin-right: 20px;
+  }
+
+  .main__statistics__reading{
+    margin-right: 20px;
+  }
+
+  .userId{
+    margin-left: 16px;
+  }
+
+  .userId p{
+    line-height: 20px;
+  }
+
+  .main__left__userInfo__item{
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .user__items__item{
+    display: flex;
+  }
+
+  .main__left__user__items__adress{
+    margin-right: 32px;
+  }
+
+  .user__items__icon{
+    margin-right: 5px;
+  }
+
+  .main__left__userInfo__userLogo{
+    position: relative;
+    top: -5px;
+  }
+
+  .blue__right__button p{
+    color: white;
+  }
+  
+}
