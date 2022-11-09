@@ -254,10 +254,6 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   margin-top: 10px;
 }
 
-.svetov{
-  background: linear-gradient(0deg, #FFFFFF 21.87%, rgba(255, 255, 255, 0) 100%);
-  opacity: 0.5;
-}
 
 .messages__userPicture img{
   width: 100%;
