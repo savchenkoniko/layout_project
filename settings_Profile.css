@@ -1392,6 +1392,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+    margin-top: 16px;
   }
 
   .main__left__personal__info__birthDay__settings{
@@ -1471,6 +1472,16 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     font-size: 18px;
     font-weight: 400;
     color:#555555;
+  }
+  
+  .big__title{
+    width: 100%;
+    height: 30px;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    overflow:auto
   }
 
   

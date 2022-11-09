@@ -49,11 +49,11 @@
                         <div class="main__left__content__block__personal__info_1_nameAnd__nicknme">
                             <div class="main__left__your__name nickname__button">
                                 <p class="small__title">Ваше имя</p>
-                                <p class="big__title">Donald</p>
+                                <textarea class="big__title">Donald</textarea>
                             </div>
                             <div class="main__left__your__nickname nickname__button">
                                 <p class="small__title">Никнейм</p>
-                                <p class="big__title">@donald</p>
+                                <textarea class="big__title">@donald</textarea>
                             </div>
                             <div class="main__left__your__nickname__busy">
                                 <p>К сожалению этот никнейм занят</p>
@@ -66,24 +66,28 @@
                     <div class="main__left__personal__info__2">
                         <div class="main__left__about__self personal__info__button">
                             <p class="small__title">О себе</p>
-                            <p class="big__title">45th President Of The United States Of America</p>
+                            <textarea class="big__title">45th President Of The United States Of America</textarea>
                         </div>
                         <div class="main__left__location personal__info__button personal__2__info__button">
                             <p class="small__title">Геолокация</p>
-                            <p class="big__title">Washington, DC</p>
+                            <textarea class="big__title">Washington, DC</textarea>
                         </div>
                         <div class="main__left__web__site personal__info__button personal__2__info__button">
                             <p class="small__title">Вебсайт</p>
-                            <p class="big__title">donaldjtrump.com</p>
+                            <textarea class="big__title">donaldjtrump.com</textarea>
                         </div>
                         <div class="main__left__personal__info__birthDay__settings">
                             <div class="main__left__personal__info__birthday birthDay__settings__button">
                                 <p class="small__title">День рождения</p>
-                                <p class="big__title">14.06.1946</p>
+                                <input class="big__title" type="date" id="start" name="trip-start" value="1998-02-10" min="1900-01-01" max="2022-12-31">
                             </div>
                             <div class="main__left__personal__info__isBirthdayShown birthDay__settings__button">
                                 <p class="small__title">Показывать дату рождения</p>
-                                <p class="big__title">Показывать всем</p>
+                                <p class="big__title"><select size="3" multiple name="hero[]">
+                                    <option value="Чебурашка">Вижу только я</option>
+                                    <option selected value="Крокодил Гена">Показывать всем</option>
+                                   </select>
+                                </p>
                             </div>
                         </div>
                     </div>
