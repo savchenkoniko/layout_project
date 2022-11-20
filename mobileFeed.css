@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .mobile__fixed__buttom{
     position: fixed;
     top: 400px;
-    left: calc(80vw)
+    left: calc(70vw)
 }
 .header__block__mobile{
     display: flex;

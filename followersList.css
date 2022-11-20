@@ -396,6 +396,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .main__left__user__items{
     margin-top: 15px;
+    margin-left: 18px;
 }
 .main__left__userInfo__names{
     margin-bottom: 15px;
@@ -480,6 +481,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 .blue__right__button{
     background: #0057FF;
     border-radius: 5px;
+    height: 24px;
 }
 
 .blue__right__button p{
@@ -506,8 +508,9 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
   main{
     display: flex;
-    margin-left: 180px;
-    margin-right: 140px;
+    /*margin-left: 180px;*/
+    /*margin-right: 140px;*/
+    justify-content: center;
     margin-top: 32px;
     margin-bottom: 41px;
   }
@@ -835,6 +838,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
   .messages__userText__nickName{
     font-size: 16px;
+    margin-top: 5px;
   }
 
   .actualTopics__title{

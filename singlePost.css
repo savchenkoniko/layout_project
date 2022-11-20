@@ -477,7 +477,9 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
 
   body{
-    background: #E5E5E5;;
+    background: #E5E5E5;
+    width: 100%;
+    margin-left: calc(40vh);
   }
   main{
     display: flex;
@@ -496,6 +498,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
 
   .header__desk__block{
+    min-width: 100%;
     background: #ffff;
     display: flex;
     height: 64px;
@@ -977,10 +980,11 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     margin-left: auto;
     margin-right: 16px;
     align-self: center;
+    padding-bottom: 6px;
 
   }
   .main__right__discussion__userButton p{
-    margin-top: 6px;
+    margin-top: 3px;
     margin-bottom: 4px;
     margin-left: 20px;
     margin-right: 20px;

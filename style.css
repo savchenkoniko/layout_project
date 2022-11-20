@@ -172,7 +172,7 @@ header{
 .messages__userText__icons{
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 13px;
   max-width: 200px;
 }
 
@@ -232,7 +232,7 @@ header{
 .main__content__stat__block__text{
   font-size: 18px;
   font-weight: 400;
-  margin-top: 5px;
+  margin-top: 16px;
 }
 
 .messages__userText__text{
@@ -404,12 +404,12 @@ header{
 
   .enter__footer{
     margin-left: 16px;
-    margin-right: 70px;
+    margin-right: 20px;
     height: 100%;
   }
 
   .reg__footer{
-    margin-left: 70px;
+    margin-left: 20px;
   }
 
   .main__content__messages__userLogo img{
@@ -554,7 +554,7 @@ header{
   }
   .messages__userText__icons{
     margin-top: 16px;
-    min-width: 400px;
+    min-width: 270px;
   }
   .main__content__messages__userTime p{
     white-space: nowrap;

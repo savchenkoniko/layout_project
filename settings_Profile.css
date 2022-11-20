@@ -32,6 +32,11 @@ html,body{
     background: #E5E5E5;
 }
 
+body{
+  width: 100%;
+  margin-left: calc(40vh);
+}
+
 input,button,textarea{font-family:inherit}
 
 input::-ms-clear{display: none}
@@ -1482,6 +1487,10 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     white-space: pre-wrap;
     overflow-wrap: break-word;
     overflow:auto
+  }
+
+  .select{
+    width: 100%;
   }
 
   

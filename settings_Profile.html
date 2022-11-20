@@ -49,11 +49,11 @@
                         <div class="main__left__content__block__personal__info_1_nameAnd__nicknme">
                             <div class="main__left__your__name nickname__button">
                                 <p class="small__title">Ваше имя</p>
-                                <textarea class="big__title">Donald</textarea>
+                                <input type="text" class="big__title">
                             </div>
                             <div class="main__left__your__nickname nickname__button">
                                 <p class="small__title">Никнейм</p>
-                                <textarea class="big__title">@donald</textarea>
+                                <input type="text" class="big__title">
                             </div>
                             <div class="main__left__your__nickname__busy">
                                 <p>К сожалению этот никнейм занят</p>
@@ -66,15 +66,15 @@
                     <div class="main__left__personal__info__2">
                         <div class="main__left__about__self personal__info__button">
                             <p class="small__title">О себе</p>
-                            <textarea class="big__title">45th President Of The United States Of America</textarea>
+                            <input type="text" class="big__title">
                         </div>
                         <div class="main__left__location personal__info__button personal__2__info__button">
                             <p class="small__title">Геолокация</p>
-                            <textarea class="big__title">Washington, DC</textarea>
+                            <input type="text" class="big__title">
                         </div>
                         <div class="main__left__web__site personal__info__button personal__2__info__button">
                             <p class="small__title">Вебсайт</p>
-                            <textarea class="big__title">donaldjtrump.com</textarea>
+                            <input type="text" class="big__title">
                         </div>
                         <div class="main__left__personal__info__birthDay__settings">
                             <div class="main__left__personal__info__birthday birthDay__settings__button">
@@ -83,11 +83,11 @@
                             </div>
                             <div class="main__left__personal__info__isBirthdayShown birthDay__settings__button">
                                 <p class="small__title">Показывать дату рождения</p>
-                                <p class="big__title"><select size="3" multiple name="hero[]">
-                                    <option value="Чебурашка">Вижу только я</option>
-                                    <option selected value="Крокодил Гена">Показывать всем</option>
-                                   </select>
-                                </p>
+                                <select name="select" class="big__title select"> <!--Supplement an id here instead of using 'name'-->
+                                    <option value="value1">Значение 1</option>
+                                    <option value="value2" selected>Показывать всем</option>
+                                    <option value="value3">Значение 3</option>
+                                  </select>
                             </div>
                         </div>
                     </div>
