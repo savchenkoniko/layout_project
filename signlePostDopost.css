@@ -22,7 +22,7 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
-    max-width: 1280px;
+    width: 100%;
     font-size: 100%;
     line-height: 1;
     font-size: 14px; 
@@ -572,6 +572,9 @@ textarea {
 
 @media screen and (min-width:1200px) {
   
+  .main__left__content{
+    width: 632px;
+  }
   
   textarea {
     color: initial;
@@ -621,8 +624,7 @@ textarea {
   }
   main{
     display: flex;
-    margin-left: 180px;
-    margin-right: 140px;
+    justify-content: center;
     margin-top: 32px;
     margin-bottom: 41px;
   }
@@ -767,6 +769,7 @@ textarea {
   }
 
   .main__right__content{
+    width: 312px;
     display: flex;
     flex-direction: column;
     margin-left: 16px;
@@ -1022,6 +1025,7 @@ textarea {
     display: flex;
     align-self: center;
     margin-left: 5px;
+    font-size: 10px;
   }
 
   .intBloggers__block:last-child{
@@ -1111,7 +1115,7 @@ textarea {
   .main__right__discussion__userButton{
     color: #0057FF;
     background: #ffff;
-    border: 2px solid #0057FF;
+    border: 1px solid #0057FF;
     border-radius: 5px;
     height: 24px;
     margin-left: auto;
@@ -1124,6 +1128,7 @@ textarea {
     margin-bottom: 4px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 10px;
   }
   .main__right__discussion__userNames{
     align-self: center;
@@ -1159,7 +1164,7 @@ textarea {
   .main__left__content{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 632px;
   }
 
   .left__content__userInfo__time{

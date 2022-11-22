@@ -354,9 +354,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     top: -70px;
 }
 
-.main__left__content__userInfo{
-    margin-left: 11px;
-}
+
 
 .main__left__userInfo__statistics{
     display: none;
@@ -391,6 +389,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     margin-bottom: 24px;
     margin-top: 20px;
     border: 1px solid #0057FF;
+    color: #0057FF;
     border-radius: 5px;
     margin-left: 16px;
     margin-right: 16px;
@@ -444,6 +443,10 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 @media screen and (min-width:1200px) {
 
+  .main__left__content{
+    width: 632px;
+  }
+
   .main__left__userInfo__statistics__mobile{
     display: none;
   }
@@ -461,8 +464,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
   main{
     display: flex;
-    margin-left: 180px;
-    margin-right: 140px;
+    justify-content: center;
     margin-top: 32px;
     margin-bottom: 41px;
   }
@@ -607,6 +609,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
 
   .main__right__content{
+    width: 312px;
     display: flex;
     flex-direction: column;
     margin-left: 16px;
@@ -869,6 +872,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     display: flex;
     align-self: center;
     margin-left: 5px;
+    font-size: 10px;
   }
 
   .intBloggers__block:last-child{

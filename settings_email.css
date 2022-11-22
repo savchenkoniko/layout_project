@@ -22,7 +22,7 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
-    max-width: 1280px;
+    width: 100%;
     font-size: 100%;
     line-height: 1;
     font-size: 14px; 
@@ -583,8 +583,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
   main{
     display: flex;
-    margin-left: 180px;
-    margin-right: 140px;
+    justify-content: center;
     margin-top: 32px;
     margin-bottom: 41px;
   }
@@ -1258,6 +1257,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
 
   .main__left__content__block{
+    width: 632px;
     background: #FFFFFF;
     border-radius: 10px;    
   }

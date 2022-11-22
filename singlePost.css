@@ -22,7 +22,7 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
-    max-width: 1280px;
+    width: 100%;
     font-size: 100%;
     line-height: 1;
     font-size: 14px; 
@@ -364,7 +364,6 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
 .left__content__userInfo__time{
     margin-left: auto;
-    margin-right: 10px;
     color: #ABACB1;
     align-self: center;
     max-width: 40px;
@@ -465,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 }
 
 @media screen and (min-width:1200px) {
-  
+
   .border__line{
     display: none;
   }
@@ -479,12 +478,11 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   body{
     background: #E5E5E5;
     width: 100%;
-    margin-left: calc(40vh);
   }
+
   main{
     display: flex;
-    margin-left: 180px;
-    margin-right: 140px;
+    justify-content: center;
     margin-top: 32px;
     margin-bottom: 41px;
   }
@@ -498,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
 
   .header__desk__block{
-    min-width: 100%;
+    width: 100%;
     background: #ffff;
     display: flex;
     height: 64px;
@@ -630,6 +628,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   }
 
   .main__right__content{
+    width: 312px;
     display: flex;
     flex-direction: column;
     margin-left: 16px;
@@ -885,6 +884,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
     display: flex;
     align-self: center;
     margin-left: 5px;
+    font-size: 10px;
   }
 
   .intBloggers__block:last-child{
@@ -974,7 +974,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   .main__right__discussion__userButton{
     color: #0057FF;
     background: #ffff;
-    border: 2px solid #0057FF;
+    border: 1px solid #0057FF;
     border-radius: 5px;
     height: 24px;
     margin-left: auto;
@@ -984,8 +984,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
 
   }
   .main__right__discussion__userButton p{
-    margin-top: 3px;
-    margin-bottom: 4px;
+    font-size: 10px;
+    margin-top: 6px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -1023,12 +1023,11 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: 400;}
   .main__left__content{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 632px;
   }
 
   .left__content__userInfo__time{
     margin-left: auto;
-    margin-right: 10px;
     color: #ABACB1;
     align-self: center;
   }
